@@ -180,6 +180,7 @@ function Records() {
                 <Input
                   name="amount"
                   value={form.amount}
+                  type="number"
                   onChange={(e) =>
                     setForm({ ...form, amount: Number(e.target.value) })
                   }
